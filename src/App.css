@@ -3,6 +3,7 @@
   background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+/* .....//Landing -Page//.... */
 .landing-grid{
   text-align: center;
   width: 100%;
@@ -57,10 +58,35 @@
   background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color:white !important;
 }
-
+/* .......// Projects Page //.... */
 .landing-projects{
-  
   display: flex;
   width: 80%;
   margin: auto;
+}
+
+/*.....// About PAge //......... */
+.about-body{
+  position: fixed;
+  width:100%;
+  height: 100%;
+}
+.about-grid{
+  text-align: center;
+  width:70%;
+  height: 555px;
+  background-color:white;
+}
+.about-grid h3 {
+  font-family: 'Audiowide', cursive;
+}
+.about-grid p{
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+  padding:2% 20%;
+}
+.about-grid hr{
+  width:50%;
+  margin: auto;
+  border-top: 5px dotted black;
 }
