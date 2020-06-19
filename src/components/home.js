@@ -4,7 +4,7 @@ import { faCoffee, faCheckSquare,faCamera,faClock } from '@fortawesome/free-soli
 import {Grid , Cell,} from 'react-mdl';
 import male from '../asset/img/male.png';
 
-class LandingPage extends Component{
+class Home extends Component{
     render(){
         return(
         <div style={{width: '100%', margin: 'auto'}}>
@@ -42,4 +42,4 @@ class LandingPage extends Component{
     }
 
 }
-export default LandingPage;
+export default Home;

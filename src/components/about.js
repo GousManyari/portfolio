@@ -14,25 +14,35 @@ class About extends Component {
                         <img src={male} alt="Gous Manyari"
                             style={{width:'250px', }}
                         />
-                        <p>Hello Dummy Text Apparently we had reached a great height in the atmosphere,
-                            for the sky was a dead black, and the stars had ceased to twinkle.
-                            By the same illusion which lifts the horizon of the sea to the level of the spectator on a hillside,
+                        <p align='center'>Assalam Walekum, I am Gous Manyari. I am quit simple. 
+                        I always like beyond the Beautifulness.Beauty is not on face but from Heart, 
+                        Thoughts and Helping others.
                         </p>
                     </Cell>
 
                     <Cell col={6}>
-                        <h3>Contact Me</h3>
-                        <hr/>
+                        <h3 align="left">Contact Me</h3>
+                        <hr align="left"/>
                         <List style={{marginTop:'3em',justifyContent:'center'}}>
-                            <ListItem style={{fontFamily:'Audiowide',fontSize:'25px'}}>
+                            <ListItem style={{fontFamily:'Audiowide',fontSize:'18px'}}>
                                 <ListItemContent icon="phone_android"  className="avatar">+91-7755952294</ListItemContent>
                             </ListItem>
-                            <ListItem style={{fontFamily:'Audiowide',fontSize:'25px'}}>
-                                <ListItemContent icon="person">Gous Manyari</ListItemContent>
+                            <ListItem style={{fontFamily:'Audiowide',fontSize:'18px'}}>
+                                <ListItemContent icon="account_circle">Gous Manyari</ListItemContent>
                             </ListItem>
-                            <ListItem style={{fontFamily:'Audiowide',fontSize:'25px'}}>
+                            <ListItem style={{fontFamily:'Audiowide',fontSize:'18px'}}>
                                 <ListItemContent icon="mail">gousmanyari@gmail.com</ListItemContent>
                             </ListItem>
+                              <ListItem style={{fontFamily:'Audiowide',fontSize:'18px'}}>
+                                <ListItemContent icon="person_search">https://www.facebook.com/gous.manyari/</ListItemContent>
+                            </ListItem>
+                             <ListItem style={{fontFamily:'Audiowide',fontSize:'18px'}}>
+                                <ListItemContent icon="person_search">https://www.instagram.com/gousmanyari/</ListItemContent>
+                            </ListItem>
+                            <ListItem style={{fontFamily:'Audiowide',fontSize:'18px'}}>
+                                <ListItemContent icon="language">https://www.instagram.com/gousmanyari/</ListItemContent>
+                            </ListItem>
+                            
                         </List>
                     </Cell>
 

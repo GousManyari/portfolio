@@ -15,7 +15,6 @@ function App() {
                     <Link to="/resume">Resume</Link>
                     <Link to="/projects">Projects</Link>
                     <Link to="/about">About</Link>
-                    <Link to="/contact">Contacts Us</Link>
                 </Navigation>
             </Header>
             <Drawer  className='drawer-bg' title="MyPortfolio">
@@ -23,7 +22,6 @@ function App() {
                     <Link  className ="drawer-anchor" to="/resume">Resume</Link>
                     <Link  className ="drawer-anchor" to="/projects">Projects</Link>
                     <Link  className ="drawer-anchor" to="/about">About</Link>
-                    <Link  className ="drawer-anchor" to="/contact">Contacts Us</Link>
                 </Navigation>
             </Drawer>
             <Content>
