@@ -7,11 +7,10 @@ import About from './about';
 
 const Main = () => (
     <Switch>
-        <Route path="/" exact component={Home} />
-        <Route path="/home" exact component={Home} />
-        <Route path="/resume" exact component={Resume} />
-        <Route path="/projects" exact component={Projects} />
-        <Route path="/about" exact component={About} />
+        <Route exact path = "/" component={Home} />
+        <Route path = "/resume" component={Resume} />
+        <Route path = "/projects" component={Projects} />
+        <Route path = "/about" component={About} />
     </Switch>
 )
 export default Main;

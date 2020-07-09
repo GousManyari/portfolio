@@ -12,9 +12,9 @@ import html3 from '../asset/img/html-03.png';
 
 class Projects extends Component {
 
-    constructor(props){
-        super(props)
-        this.state = { activeTab: 0 } 
+    constructor(props) {
+          super(props)
+          this.state = { activeTab: 0 }
     }
 
     toggleCategories() {
@@ -24,7 +24,7 @@ class Projects extends Component {
             return(
                 <div className="landing-projects">
                     {/* Projects 01 */}
-                   
+
                     <Card shadow={3} style={{width: '320px', height: '320px', margin: 'auto'}} className="card">
                         <CardTitle expand style={{color:'#1C2833', background:`url(${react4}) center/cover no-repeat`}}>Projects #01  </CardTitle>
                         <CardText>
@@ -59,7 +59,7 @@ class Projects extends Component {
                         </CardActions>
                     </Card>
                 </div>
-            )  
+            )
         }else if(this.state.activeTab === 1)
         {
             return (
@@ -141,10 +141,9 @@ class Projects extends Component {
             )
         }
     }
-
     render(){
         return (
-            <div className = "demo-tabs">
+            <div className = "projects-tabs">
                 <Tabs activeTab = {this.state.activeTab} onChange ={(tabId) => this.setState({activeTab:  tabId })} ripple>
                     <Tab>React</Tab>
                     <Tab>CodeIgniter</Tab>
@@ -158,7 +157,7 @@ class Projects extends Component {
                         </Cell>
                     </Grid>
                 </section>
-            </div> 
+            </div>
         )
     }
 }

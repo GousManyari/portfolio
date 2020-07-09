@@ -4,7 +4,6 @@ import { Layout, Header, Navigation, Drawer, Content} from 'react-mdl';
 import Main from './components/main';
 import {Link } from 'react-router-dom';
 
-
 function App() {
   return (
     // {/* Uses a header that scrolls with the text, rather than staying locked at the top */}
@@ -25,8 +24,8 @@ function App() {
                 </Navigation>
             </Drawer>
             <Content>
-                <div className="page-content" />
-                <Main/>
+            {/* Components Route Section */}
+            <Main/>
             </Content>
         </Layout>
     </div>

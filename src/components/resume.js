@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import { Grid,Cell,List,ListItem,ListItemContent } from 'react-mdl';
+import { Grid,Cell} from 'react-mdl';
 import male from '../asset/img/male.png';
+import './resume.css';
 
 class Resume extends Component {
     render(){
@@ -103,26 +104,45 @@ class Resume extends Component {
                     <Cell col={8} className="resume-container">
                         <div className="profileName">
 
-                    {/* Profile  Name  & Experience Section. */}
-                            <h2>Gous Manyari</h2>
-                            <h4>Web Developer</h4>
+                    {/* Profile  Name   */}
+            
+                        <Grid>
+                            <Cell col={8}>
+                                <div className="ProfileName" >
+                                    <h2>Gous Manyari</h2>
+                                    <h4>Web Developer</h4>
+                                </div>
+                            </Cell>
+                            <Cell col={4}>
+                                <div className="ProfileContact">
+                                    <p>+91-7755952294</p>
+                                    <p>https://gousmanyari.github.io/resume</p>
+                                    <p>gousmanyari@gmail.com</p>
+                                </div>
+                            </Cell>
+                        </Grid>
+                        {/* Profile Section. */}
                             <h5 style={{marginTop:'50px'}}>PROFILE</h5>
                             <hr/>
                             <p align='justify'>One year Experience as a Web Developer in Aptara New Media Pvt. Ltd. My objective is to join an organization where I can utilize my skills as well as abilities to focusing organizational improvement and self-growth as well as my interest is to do well, passionate and enthusiastic to learn new skills. </p>
+                        {/* EDUCATION Section. */}
                             <h5 style={{marginTop:'50px'}}>EDUCATION</h5>
-                            <hr/>
-                            <ul style={{padding:'10px'}}>
-                                <li>Master of Computer Science M.Sc(CS) from SRTM University Nanded. with 60%</li>
-                                <li>B.Sc. in ‘Computer Science from SRTM University Nanded. with 65% </li>
-                                <li> HSC from Pune divisional board with 64.67%</li>
-                                <li> SSC from Latur board with 42%</li>
-                            </ul>
-
-
+                            <hr style={{marginBottom:'0px !important'}} />
+                            <Grid>
+                                <Cell col={12}>
+                                    <ul style={{marginLeft:'0 !important'}}>
+                                        <li>Master of Computer Science M.Sc(CS) from SRTM University Nanded. with 60%</li>
+                                        <li>B.Sc. in ‘Computer Science from SRTM University Nanded. with 65% </li>
+                                        <li> HSC from Pune divisional board with 64.67%</li>
+                                        <li> SSC from Latur board with 42%</li>
+                                    </ul>
+                                </Cell>
+                            </Grid>
+                        {/* TECHNICAL SKILL Section. */}
                             <h5 style={{marginTop:'50px'}}>EXPERIENCE</h5>
                             <hr/>
                             <p align='justify'>
-                            1 year Experience as HTML (Web) Developer in Aptara New Media Pvt. Ltd. 
+                            One year experience as HTML (Web) Developer in Aptara New Media Pvt. Ltd. 
 My role is HTML programmer and my work is create layout in HTML ,CSS ,Bootstrap and Jquery and Updating content of existing site or maintaining websites information. Using Tools PagePro, JobPro Sublime text, Filezilla, Chrome development tools etc.
 I have knowledge of HTML, CSS, JavaScript, JQuery, Ajax, Bootstrap, PHP and MySQL database etc.
 Microsoft Office, Tools MS-VsCode Sublime Text Editor,PagePro, Filezilla etc.
